@@ -5,14 +5,15 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
-  background-color: var(--main-orange);
+  background-color: var(--blue);
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 :root {
-  --main-orange: #3d405b;
-  --main-blue: #0b0c0c;
+  --red: #d62828;
+  --blue-gray: #003049;
+  --blue:  #054f77;
   --main-white: #ffffff;
 }
 
@@ -60,7 +61,7 @@ a {
   margin-top: 20px;
   outline: none;
   color: var(--main-white);
-  background-color: var(--main-blue);
+  background-color:var(--blue-gray);
 }
 
 .input i {
