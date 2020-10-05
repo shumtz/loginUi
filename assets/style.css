@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: var(--main-orange);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+:root {
+  --main-orange: #3d405b;
+  --main-blue: #0b0c0c;
+  --main-white: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  padding: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  color: var(--main-white);
+}
+
+.header span {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.header a {
+  font-weight: 400;
+  color: var(--main-white);
+  padding: 05px;
+}
+
+.header a:hover {
+  display: inline;
+  border: none;
+  border-bottom: 2px solid;
+  padding: 05px;
+}
+
+.form button {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  outline: none;
+  color: var(--main-white);
+  background-color: var(--main-blue);
+}
+
+.input i {
+  display: flex;
+  border-bottom: solid 1px;
+  font-size: 15px;
+  line-height: 40px;
+  text-align: center;
+  vertical-align: bottom;
+  color: var(--main-white);
+}
+
+.input i input {
+  width: 100%;
+  font-size: 15px;
+  padding: 0px 10px 10px 10px;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  color: var(--main-white);
+  background-color: transparent;
+}
